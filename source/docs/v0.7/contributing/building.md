@@ -33,7 +33,7 @@ sudo yum install hg bzr protobuf-compiler flex bison valgrind g++ make autoconf 
 - If you're on a Debian-based distro:
 
 ``` bash
-sudo apt-get install mercurial bzr protobuf-compiler flex bison valgrind g++ make autoconf libtool libz-dev libbz2-dev
+sudo apt-get install mercurial bzr protobuf-compiler flex bison valgrind g++ make autoconf automake libtool libz-dev libbz2-dev
 ```
 
 Then run `./configure && make`. This will build the server and run the tests.
